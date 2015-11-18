@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#AFA7EF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLUE GAPE"
+        android:id="@+id/textView"
+        android:textSize="@dimen/abc_action_bar_default_height_material"
+        />
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/rounded_edittext"
+        android:layout_height="wrap_content" >
+
+
+        <EditText
+            android:id="@+id/searchText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:hint="Enter Search Key"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#343434"
+            android:textColorHint="#343434"
+            android:textSize="15sp" />
+
+        <ImageButton
+            android:id="@+id/searchbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/searchbuttonicon"
+            android:text="Button"
+            android:layout_alignBottom="@+id/searchText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+   <!-- <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:text="Get Ur Coordinates"
+            android:id="@+id/gpstext"
+            android:layout_weight="1.06" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS"
+            android:id="@+id/gpsbutton"
+            android:layout_gravity="right" />
+
+    </LinearLayout>-->
+
+
+
+
+</LinearLayout>
